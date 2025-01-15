@@ -16,7 +16,9 @@ This repository includes the following files:
 - `research.pdf`   (the research paper regarding constistency in batting, describing the methods and results of the study)
 - `Baseball Pitch Swing Analysis.R` (the R script used to analyze the data and create visualizations)
 
-The original data set can be found on the [official website](https://statds.org/events/csas2025/challenge.html).
+The original data set can be found on the [official website](https://statds.org/events/csas2025/challenge.html), under the following file name:
+
+`statcast_pitch_swing_data_20240402_20241030_with_arm_angle2.csv`
 
 
 ## Requirements
@@ -33,14 +35,23 @@ The packages used are as follows:
 - `tidyr`
 - `ggplot2`
 
-To install these packages, run the following command in your R console:
 
-`install.packages(c("readxl", "dplyr", "tidyr", "ggplot2"))`
+To install these packages, run the following command in your R console:  
 
-Set your working directory to your folder containing both `file.R` and `data.csv`.
+`install.packages(c("readxl", "dplyr", "tidyr", "ggplot2"))`  
+
+
+Set your working directory to your folder containing both `Baseball Pitch Swing Analysis.R` and the data set.  
 
 `setwd("path/to/directory")`
 
-To run the R script, execute the following command:
 
-`source("file.R")`
+To run the R script, execute the following command:  
+
+`source("Baseball Pitch Swing Analysis.R")`
+
+
+
+Ensure that your data set is in the same directory and keeps the original name:
+
+`statcast_pitch_swing_data_20240402_20241030_with_arm_angle2.csv`
