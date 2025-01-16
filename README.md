@@ -14,7 +14,7 @@ This study analyzes bat speed and swing length to explore consistency in Major L
 
 This repository includes the following files:
 - `research.pdf`   (the research paper regarding constistency in batting, describing the methods and results of the study)
-- `Baseball Pitch Swing Analysis.R` (the R script used to analyze the data and create visualizations)
+- `Baseball Pitch Swing Analysis.R` (contains the entire R script used to analyze the data and create visualizations)
 
 The original data set can be found on the [official website](https://statds.org/events/csas2025/challenge.html), under the following file name:
 
